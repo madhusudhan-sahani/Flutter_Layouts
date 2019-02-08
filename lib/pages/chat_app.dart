@@ -105,7 +105,7 @@ class ChatMessage extends StatelessWidget {
         children: <Widget>[
           new Container(
             margin: const EdgeInsets.only(right: 15.0),
-            child: new CircleAvatar(child: Icon(Icons.verified_user, color: Colors.white,), backgroundColor: Colors.green,)
+            child: new CircleAvatar(child: Icon(Icons.account_circle, color: Colors.white,), backgroundColor: Colors.green,)
           ),
           new Column(
             crossAxisAlignment: CrossAxisAlignment.start,
