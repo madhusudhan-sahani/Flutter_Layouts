@@ -58,14 +58,18 @@ class BlogPage extends StatelessWidget {
       fit: BoxFit.cover,
     );
 
-    return ListView(
-          children: <Widget>[
-            imageSection,
-            titleSection,
-            buttonSection,
-            descriptionSection
-          ],
-        );
+    return new Scaffold(
+        appBar: new AppBar(title: new Text('Flutter Layouts Demo'),
+                            backgroundColor: Colors.red,),
+    body:ListView(
+    children: <Widget>[
+    imageSection,
+    titleSection,
+    buttonSection,
+    descriptionSection
+      ],
+    )
+    );
   }
 
   // To Build the Buttons
